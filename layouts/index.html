@@ -1,0 +1,27 @@
+{{ define "main" }}
+
+<header>
+	<input type="checkbox" id="sitemenu-openclose" />
+	<label for="sitemenu-openclose" class="sitemenu-button open" >≡</label>
+	<label for="sitemenu-openclose" class="sitemenu-button close" >×</label>
+	<div class="sitemenu-background"></div>
+	<ul class="sitemenu">
+		<li><a href="https://t-asa2000.net/">Profile</a></li>
+		<li class="current"><a href={{ .Site.Home.RelPermalink }}>Blog</a></li>
+</header>
+<div class="content">
+	<div class="main">
+		<article>
+			<ul class="article-list">
+				{{ range .Site.RegularPages.ByDate.Reverse }}
+				<li>
+					<label>{{ .Date | time.Format ":time_short" }}, {{ .Date | time.Format ":date_medium" }}</label>
+					<h1><a href={{ .RelPermalink }}>{{ .Name }}</a></h1>
+				</li>
+				{{ end }}
+			</ul>
+		</article>
+	</div>
+</div>
+
+{{ end }}

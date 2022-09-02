@@ -1,0 +1,25 @@
+{{ define "main" }}
+
+<header>
+	<input type="checkbox" id="sitemenu-openclose" />
+	<label for="sitemenu-openclose" class="sitemenu-button open" >≡</label>
+	<label for="sitemenu-openclose" class="sitemenu-button close" >×</label>
+	<div class="sitemenu-background"></div>
+	<ul class="sitemenu">
+		<li><a href="https://t-asa2000.net/">Profile</a></li>
+		<li><a href={{ .Site.Home.Permalink }}>Blog</a></li>
+</header>
+<div class="content">
+	<div class="main">
+		<article>
+			<h1>{{ .Title }}</h1>
+			<p>{{ .Date | time.Format ":time_short" }}, {{ .Date | time.Format ":date_medium" }}</p><hr style="border-color:var(--theme-color)">
+			{{ .Content }}
+		</article>
+		<ul class="list">
+			<li><a href={{ .Site.Home.Permalink }}>記事一覧に戻る</a></li>
+		</ul>
+	</div>
+</div>
+
+{{ end }}
