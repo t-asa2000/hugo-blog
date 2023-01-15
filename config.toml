@@ -1,4 +1,4 @@
 baseURL = 'https://t-asa2000.net/hugo-blog/'
 languageCode = 'ja-JP'
-title = "asata's Blog"
+title = "t-asa2000.net Blog"
 publishDir = "docs"

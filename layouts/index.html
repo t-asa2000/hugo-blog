@@ -1,6 +1,7 @@
 {{ define "main" }}
 
 <header>
+	<p class="sitename"><a href="https://t-asa2000.net/">t-asa2000.net</a></p>
 	<input type="checkbox" id="sitemenu-openclose" />
 	<label for="sitemenu-openclose" class="sitemenu-button open" >≡</label>
 	<label for="sitemenu-openclose" class="sitemenu-button close" >×</label>
@@ -8,6 +9,7 @@
 	<ul class="sitemenu">
 		<li><a href="https://t-asa2000.net/">Profile</a></li>
 		<li class="current"><a href={{ .Site.Home.Permalink }}>Blog</a></li>
+	</ul>
 </header>
 <div class="content">
 	<div class="main">

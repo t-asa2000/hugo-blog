@@ -2,13 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://t-asa2000.net/hugo-blog/</loc>
-    <lastmod>2022-09-03T00:00:00+09:00</lastmod>
-  </url><url>
     <loc>https://t-asa2000.net/hugo-blog/posts/20220903/</loc>
     <lastmod>2022-09-03T00:00:00+09:00</lastmod>
   </url><url>
     <loc>https://t-asa2000.net/hugo-blog/posts/</loc>
+    <lastmod>2022-09-03T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://t-asa2000.net/hugo-blog/</loc>
     <lastmod>2022-09-03T00:00:00+09:00</lastmod>
   </url><url>
     <loc>https://t-asa2000.net/hugo-blog/categories/</loc>

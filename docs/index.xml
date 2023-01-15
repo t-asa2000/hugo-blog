@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>asata&#39;s Blog</title>
+    <title>t-asa2000.net Blog</title>
     <link>https://t-asa2000.net/hugo-blog/</link>
-    <description>Recent content on asata&#39;s Blog</description>
+    <description>Recent content on t-asa2000.net Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-JP</language>
     <lastBuildDate>Sat, 03 Sep 2022 00:00:00 +0900</lastBuildDate><atom:link href="https://t-asa2000.net/hugo-blog/index.xml" rel="self" type="application/rss+xml" />
