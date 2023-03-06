@@ -14,14 +14,15 @@
 <div class="content">
 	<div class="main">
 		<article>
-			<ul class="article-list">
+			<p><a href="https://t-asa2000.net/">記事一覧はサイトトップに移転しました</a></p>
+			<!--ul class="article-list">
 				{{ range .Site.RegularPages.ByDate.Reverse }}
 				<li>
-					<label>{{ .Date | time.Format ":time_short" }}, {{ .Date | time.Format ":date_medium" }}</label>
+					<label>{{ .Date.Format "2006/01/02" }}</label>
 					<h1><a href={{ .Permalink }}>{{ .Name }}</a></h1>
 				</li>
 				{{ end }}
-			</ul>
+			</ul-->
 		</article>
 	</div>
 </div>

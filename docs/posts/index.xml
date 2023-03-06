@@ -13,9 +13,7 @@
       <pubDate>Sat, 03 Sep 2022 00:00:00 +0900</pubDate>
       
       <guid>https://t-asa2000.net/hugo-blog/posts/20220903/</guid>
-      <description>これまで格安VPSでWordPressサイトをホスティングしてましたが，色々な事情を考慮した結果 GitHub Pages + Hugo に移行しました．（移行と言ってもめんどくさかったので過去記事は全て消滅させました）
-テーマ等は使わず，僕が以前手打ちHTML+CSSで作った個人サイトをベースに再構成しています．
-（厳密にはHugoで生成してるのはブログ部分のみで，プロフィールページ等はHugoのシステムからは独立させています．）</description>
+      <description>記事を移転しました</description>
     </item>
     
   </channel>
